@@ -4,7 +4,7 @@ const dbConnection = async () => {
 
     try {
 
-        await mongoose.connect(process.env.MONGODB_CNN, {
+        await mongoose.connect('mongodb+srv://kevin_om:UbdGf0MLa0Nwun3q@cluster0.pi1bqz9.mongodb.net/cafeDB', {
             useNewUrlParser: true,
             useUnifiedTopology: true,
         });
